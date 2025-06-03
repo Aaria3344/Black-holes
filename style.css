@@ -37,7 +37,8 @@ h2 {
 }
 
 p {
-  font-size: 15px;
+  color: #0a0909;
+  font-size: 30px;
 }
 
 @keyframes fadeIn {
