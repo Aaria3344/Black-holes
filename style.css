@@ -1,0 +1,47 @@
+body {
+  background: #0b0c10;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  color: #e0f7fa;
+}
+
+.space {
+  padding: 22px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #81d4fa;
+}
+
+.blackhole-img {
+  width: 220px;
+  border-radius: 10px;
+  margin: 12px 0;
+}
+
+.section {
+  background: #1c1c1c;
+  margin: 18px auto;
+  max-width: 480px;
+  padding: 14px;
+  border-radius: 6px;
+  opacity: 0;
+  animation: fadeIn 1.3s ease forwards;
+}
+
+h2 {
+  color: #ffcc80;
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
