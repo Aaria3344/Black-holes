@@ -21,16 +21,6 @@ h1 {
   margin: 12px 0;
 }
 
-.section {
-  background: #1c1c1c;
-  margin: 18px auto;
-  max-width: 480px;
-  padding: 14px;
-  border-radius: 6px;
-  opacity: 0;
-  animation: fadeIn 1.3s ease forwards;
-}
-
 h2 {
   color: #ffcc80;
   font-size: 20px;
@@ -39,10 +29,4 @@ h2 {
 p {
   color: #0a0909;
   font-size: 30px;
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
 }
